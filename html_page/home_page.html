@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+header{
+    background-color:red;
+    width: 100%;
+    height:40px;
+    color:blue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align:right;
+}
+
+label {
+    position: relative;
+    left: 900px;
+    text-align:left;
+  
+  /*  padding: 10px;
+  */
+
+}
+.intro {
+  background-color: red;
+}
+div {background-color: green;}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+
+a:hover {
+  background-color: yellow;
+}
+</style>
+<!-- 
+<link rel="stylesheet" href="/css/mystyle.css">
+-->
+</head>
+<body>
+<div class="intro">
+    <header>Demo of Dropdown &nbsp&nbsp&nbsp;</header>
+</div>
+<div>
+  <a href="#">Link 1</a>
+  <ul>
+    <li>
+      <a href="#">Link 2</a>
+      <ul>
+        <li><a href="#">DD_Link_1</a></li>
+        <li><a href="#">DD_Link_2</a></li>
+        <li><a href="#">DD_Link_3</a></li>
+      </ul>
+    </li>
+    <li>
+        <a href="#">Link 3</a>
+        <ul>
+          <li><a href="#">DD_Link_1</a></li>
+          <li><a href="#">DD_Link_2</a></li>
+          <li><a href="#">DD_Link_3</a></li>
+        </ul>
+      </li>
+  </ul>
+</div>
+
+</body>
+</html>
