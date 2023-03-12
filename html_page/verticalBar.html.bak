@@ -5,7 +5,7 @@
             
         </head>
         <body>
-            <div style="text-align: center; margin: 0 auto; width:200px;" >
+            <div style="text-align: center; margin: 0 auto; width:200px;" class="center" style="border:1px solid white;">
             <section class="bar-graph bar-graph-vertical bar-graph-two">
                 <div>
   <div class="bar-one bar-container">
